@@ -1,5 +1,171 @@
-<h1>Welcome to Bellissimo Pizza</h1>
-<a href="https://bellissimopizza.avcoindustries.com/order-now">Order Now</a>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bellissimo Pizza - Authentic Italian Pizza</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
-<h2> this website is under construction!</h2>
-<p>We are working hard to bring you the best pizza ordering experience. Please check back soon!</p>
+        body {
+            font-family: 'Open Sans', sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+
+        .header {
+            background-color: #d32f2f;
+            color: white;
+            padding: 1rem 0;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        .nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 1.8rem;
+            font-weight: bold;
+        }
+
+        .order-btn {
+            background-color: #fff;
+            color: #d32f2f;
+            padding: 12px 25px;
+            text-decoration: none;
+            border-radius: 25px;
+            font-weight: bold;
+            transition: all 0.3s ease;
+        }
+
+        .order-btn:hover {
+            background-color: #f5f5f5;
+            transform: translateY(-2px);
+        }
+
+        .hero {
+            background: linear-gradient(rgba(211, 47, 47, 0.8), rgba(211, 47, 47, 0.8)),
+                        url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600"><rect fill="%23f4f4f4" width="1200" height="600"/></svg>');
+            background-size: cover;
+            color: white;
+            text-align: center;
+            padding: 100px 0;
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+        }
+
+        .features {
+            padding: 80px 0;
+            background-color: #f9f9f9;
+        }
+
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 40px;
+            margin-top: 40px;
+        }
+
+        .feature {
+            text-align: center;
+            padding: 30px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+
+        .feature h3 {
+            color: #d32f2f;
+            margin-bottom: 15px;
+            font-size: 1.3rem;
+        }
+
+        .section-title {
+            text-align: center;
+            font-size: 2.5rem;
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        .footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 30px 0;
+        }
+
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2rem;
+            }
+            
+            .nav {
+                flex-direction: column;
+                gap: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <div class="logo">Bellissimo Pizza</div>
+                <a href="https://bellissimopizza.avcoindustries.com/order-now" class="order-btn">Order Now</a>
+            </nav>
+        </div>
+    </header>
+<!-- hero banner with image https://i0.wp.com/www.dailypress.com/wp-content/uploads/2024/02/inside-pizza-cafeJPG.jpg?fit=620%2C9999px&ssl=1 -->
+    <section class="hero" style="background-image: url('https://i0.wp.com/www.dailypress.com/wp-content/uploads/2024/02/inside-pizza-cafeJPG.jpg?fit=620%2C9999px&ssl=1'); background-size: contain; background-repeat: no-repeat; background-position: center;">
+        <div class="container">
+            <h1>Authentic Italian Pizza</h1>
+            <p>Fresh ingredients, traditional recipes, and a passion for pizza.</p>
+            <a href="https://bellissimopizza.avcoindustries.com/order-now" class="order-btn">Order Now</a>
+        </div>
+    </section>
+
+    <section class="visit us"
+        <div class="container">
+            <h2 class="section-title">Visit Us</h2>
+            <p style="text-align: center; font-size: 1.2rem;">6324 Rte 25A, Wading River, NY 11792</p>
+            <!-- google maps embed -->
+            <div style="display: flex; justify-content: center; margin-top: 20px;">
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3023.1234567890123!2d-72.948123456789!3d40.950123456789!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e8b1234567890%3A0xabcdef1234567890!2sBellissimo%20Pizza!5e0!3m2!1sen!2sus!4v1610000000000!5m2!1sen!2sus" 
+                    width="600" 
+                    height="450" 
+                    style="border:0;" 
+                    allowfullscreen="" 
+                    loading="lazy">
+                </iframe>
+        </div>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Bellissimo Pizza. All rights reserved. | Call us: 631-929-9222</p>
+        </div>
+    </footer>
+</body>
+</html>
